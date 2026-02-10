@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    vector<int> dp(51, 0);
+    vector<long> dp(51, 0);
     dp[1] = 1;
     dp[2] = 2;
 
